@@ -6,7 +6,7 @@ public class Response {
     public String subject;
     public Data data;
 
-    static class Data {
+    class Data {
         public String bestAsk;
         public String bestAskSize;
         public String bestBid;
