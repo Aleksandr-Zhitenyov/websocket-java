@@ -11,8 +11,6 @@ repositories {
 
 dependencies {
     testImplementation(
-            // Selenide
-            "com.codeborne:selenide:7.13.0",
             // Junit
             "org.junit.jupiter:junit-jupiter:5.8.1",
             // WebSocket
