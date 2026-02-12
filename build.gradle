@@ -10,8 +10,18 @@ repositories {
 }
 
 dependencies {
-    testImplementation platform('org.junit:junit-bom:5.10.0')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation(
+            // Selenide
+            "com.codeborne:selenide:7.13.0",
+            // Junit
+            "org.junit.jupiter:junit-jupiter:5.8.1",
+            // WebSocket
+            'org.java-websocket:Java-WebSocket:1.6.0',
+            // Jackson
+            'com.fasterxml.jackson.core:jackson-databind:2.21.0',
+            // RestAssured
+            'io.rest-assured:rest-assured:5.5.6'
+    )
 }
 
 test {
